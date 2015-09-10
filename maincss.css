@@ -1,0 +1,106 @@
+body {
+    background-color: grey;
+}
+
+/*This is for the horizontal navigation bar. */
+ul.navbar1{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+}
+
+li.navbar1{
+	float: left;
+	}
+
+ 	a.navbar1:link, a.navbar1:visited {
+        display: block;
+        text-align: center;
+        width: 100px;
+        background-color: #261D34;
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 10px;
+
+      }
+
+      a.navbar1:hover, a.navbar1:active {
+        background-color: #3C3448;
+      }
+
+/* This is for the vertical navigation bar. */
+ul.navbar2{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+	li.navbar2{
+		float: left;
+	}
+
+      a.navbar2:link, a.navbar2:visited {
+        display: block;
+        text-align: center;
+        width: 100px;
+        background-color: #261D34;
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 10px;
+      }
+
+      a.navbar2:hover, a.navbar2:active {
+        background-color: #3C3448;
+      }
+      
+/*This is the layout for the border etc. */
+div.container {
+        width: 100%;
+        margin: 0px;
+        border: 1px solid black;
+        line-height: 150%;
+      }
+
+      div.header, div.footer {
+        padding: 0.5em;
+        color: white;
+        background-color: black;
+        clear: left;
+        text-align: left;
+      }
+
+      h1.header {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+      }
+
+      div.left {
+        float: left;
+        width: 160px;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+      }
+
+      div.content {
+        margin-left: 190px;
+        border-left: 1px solid black;
+        padding: 1em;
+        text-align: left;
+        height: 600px;
+      }
+
+
+
+
+
+
+
+
+
